@@ -156,10 +156,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &kp PAGE_UP     &kp UP_ARROW    &kp LC(PAGE_DOWN)  &trans                      &trans  &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN    &trans
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans
-&trans      &kp HOME        &trans          &kp END            &trans  &trans      &trans  &trans  &kp HOME        &trans        &kp END          &trans
-&trans      &trans          &trans          &trans             &trans  &trans      &trans  &trans                                                 &trans
+&kp ESCAPE  &kp PAGE_UP     &kp UP_ARROW    &kp LC(PAGE_DOWN)  &trans                          &trans  &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN    &trans
+&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans  &trans      &trans      &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans
+&trans      &kp HOME        &trans          &kp END            &trans  &trans      &trans      &trans  &kp HOME        &trans        &kp END          &trans
+&trans      &trans          &trans          &trans             &trans  &trans      &kp DELETE  &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -192,7 +192,7 @@
 &kp QUESTION  &kp DOUBLE_QUOTES  &kp EQUAL   &trans     &kp TILDE                                 &kp BACKSLASH  &kp UNDERSCORE  &trans  &trans    &kp PERCENT
 &kp AT_SIGN   &kp ASTERISK       &kp DOLLAR  &kp SLASH  &kp GRAVE        &trans      &trans       &kp HASH       &trans          &trans  &kt PLUS  &trans
 &trans        &trans             &kp CARET   &kp PIPE   &kt EXCLAMATION  &trans      &bootloader  &kp AMPERSAND  &kp MINUS       &trans  &trans    &trans
-&trans        &trans             &trans      &trans     &trans           &trans      &trans       &trans                                           &trans
+&trans        &trans             &trans      &trans     &trans           &trans      &kp DELETE   &trans                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
