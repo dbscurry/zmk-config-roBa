@@ -29,22 +29,22 @@
 
         muhennkann {
             bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+            key-positions = <>;
         };
 
         henkan {
             bindings = <&to_layer_0 INTERNATIONAL_4>;
-            key-positions = <20 21>;
+            key-positions = <>;
         };
 
         left-parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <2 3>;
+            key-positions = <3 2>;
         };
 
         right-parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 6>;
+            key-positions = <4 3>;
         };
 
         left-bracket {
@@ -54,7 +54,7 @@
 
         right-bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <19 18>;
+            key-positions = <14 13>;
         };
 
         left-brace {
@@ -64,27 +64,42 @@
 
         right-brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <31 30>;
+            key-positions = <25 26>;
         };
 
         quotation {
             bindings = <&kp SQT>;
-            key-positions = <12 11>;
+            key-positions = <>;
         };
 
         double-quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <19 20>;
+            key-positions = <>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <24 23>;
+            key-positions = <>;
         };
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <31 32>;
+            key-positions = <>;
+        };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <19 20>;
         };
     };
 
