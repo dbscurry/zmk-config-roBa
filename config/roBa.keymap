@@ -204,10 +204,10 @@
 
         SYMBOL {
             bindings = <
-&kp QUESTION  &kp DOUBLE_QUOTES  &kp EQUAL   &trans     &kp TILDE                                &kp BACKSLASH  &kp UNDERSCORE  &trans  &trans    &kp PERCENT
-&kp AT_SIGN   &kp ASTERISK       &kp DOLLAR  &kp SLASH  &kp GRAVE        &trans      &trans      &kp HASH       &trans          &trans  &kp PLUS  &trans
-&trans        &trans             &kp CARET   &kp PIPE   &kp EXCLAMATION  &trans      &trans      &kp AMPERSAND  &kp MINUS       &trans  &trans    &trans
-&trans        &trans             &trans      &trans     &trans           &trans      &kp DELETE  &trans                                           &trans
+&kp QUESTION  &kp DOUBLE_QUOTES  &kp EQUAL   &trans     &kp TILDE                                &kp BACKSLASH  &kp UNDERSCORE  &kp SINGLE_QUOTE  &trans    &kp PERCENT
+&kp AT_SIGN   &kp ASTERISK       &kp DOLLAR  &kp SLASH  &kp GRAVE        &trans      &trans      &kp HASH       &trans          &trans            &kp PLUS  &trans
+&trans        &trans             &kp CARET   &kp PIPE   &kp EXCLAMATION  &trans      &trans      &kp AMPERSAND  &kp MINUS       &trans            &trans    &trans
+&trans        &trans             &trans      &trans     &trans           &trans      &kp DELETE  &trans                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
