@@ -24,7 +24,7 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <>;
+            key-positions = <2 1>;
         };
 
         muhennkann {
@@ -94,12 +94,12 @@
 
         mb2 {
             bindings = <&mkp MB2>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
 
         mb3 {
             bindings = <&mkp MB3>;
-            key-positions = <19 20>;
+            key-positions = <7 6>;
         };
     };
 
